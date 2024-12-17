@@ -1,1 +1,14 @@
-node_modules/
+# Ignore dependency directories
+server/node_modules/
+client/node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Logs
+logs/
+*.log
+
+# Other directories and files you want to ignore
+dist/
+coverage/
